@@ -8,6 +8,7 @@ using std::endl;
 using std::string;
 
 int main() {
+    SetConfigFlags(FLAG_WINDOW_RESIZABLE);
     InitWindow(800, 600, "Hello World");
     SetTargetFPS(60);
 
