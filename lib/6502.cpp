@@ -17,3 +17,12 @@
  */    
 
 #include <6502.hpp>
+
+// Function Definitions for the 6502 CPU
+cpu::cpu() {
+
+}
+
+cpu::~cpu() {
+
+}
