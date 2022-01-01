@@ -15,7 +15,8 @@ FetchContent_MakeAvailable(raylib)
 project(tinker02)
 
 include_directories(include)
+include_directories(lib)
 
-add_executable(tinker02 src/main.cpp lib/6502.cpp)
+add_executable(tinker02 src/main.cpp lib/mos6502/mos6502.cpp)
 
 target_link_libraries(${PROJECT_NAME} raylib)

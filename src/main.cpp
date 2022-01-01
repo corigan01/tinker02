@@ -20,18 +20,16 @@
 #include <raylib.h>
 #include <iostream>
 #include <string>
-#include <6502.hpp>
+#include <mos6502/mos6502.h>
 
 using std::cout;
 using std::endl;
 using std::string;
 
 int main (int argc, char *argv[]) {
-    // Test something
-    cpu test_cpu;
 
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
-    InitWindow(800, 600, "Hello World2");
+    InitWindow(800, 600, "Hello World");
     SetTargetFPS(60);
 
     while (!WindowShouldClose()) {
