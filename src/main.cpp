@@ -31,7 +31,7 @@ int main (int argc, char *argv[]) {
     cpu test_cpu;
 
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
-    InitWindow(800, 600, "Hello World");
+    InitWindow(800, 600, "Hello World2");
     SetTargetFPS(60);
 
     while (!WindowShouldClose()) {
