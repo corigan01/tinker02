@@ -20,7 +20,7 @@
 #include <raylib.h>
 #include <iostream>
 #include <string>
-#include "compiler/compiler.h"
+#include <header.hpp>
 
 using std::cout;
 using std::endl;
@@ -38,6 +38,6 @@ int main() {
         EndDrawing();
     }
 
-    something();
+    
     return 0;
 }
